@@ -1,0 +1,40 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with type="ua.borisov.project.client.ui.LoginResources" field="res">
+    </ui:with>
+    <gwt:HTMLPanel>
+        <div class="row">
+            <div class="col s4 offset-s4">
+                <div class="row">
+                    <div class="col s6">
+                        <gwt:Label ui:field="loginLabel"/>
+                    </div>
+                    <div class="col s6">
+                        <div class="input-field">
+                            <gwt:TextBox ui:field="loginField"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 ">
+                        <gwt:Label ui:field="passwordLabel"/>
+                    </div>
+                    <div class="col s6">
+                        <div class="input-field">
+                            <gwt:TextBox ui:field="passwordField"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s2">
+                        <gwt:SubmitButton ui:field="loginButton" styleName="btn waves-effect waves-light">
+                            Submit
+                            <i class="material-icons right">send</i>
+                        </gwt:SubmitButton>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <gwt:Label ui:field="error"/>
+    </gwt:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+    <ui:with type="ua.borisov.project.client.secondModule.SecondModuleResouces" field="res"/>
+    <gwt:HTMLPanel>
+
+        <div class="row">
+            <gwt:Label ui:field="nameLb"/>
+        </div>
+
+        <div class="row">
+            <gwt:Anchor ui:field="logout" href="javascript:">
+                <a class="waves-effect waves-light btn">LogOut</a>
+            </gwt:Anchor>
+        </div>
+
+
+
+
+    </gwt:HTMLPanel>
+</ui:UiBinder>

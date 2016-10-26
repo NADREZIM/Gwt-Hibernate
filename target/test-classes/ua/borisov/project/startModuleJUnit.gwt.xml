@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <!-- Inherit our applications main module.                      -->
+    <inherits name='ua.borisov.project.startModuleJUnit'/>
+    <inherits name="ua.borisov.project.startModule"/>
+    <entry-point class='ua.borisov.project.client.startModule'/>
+
+
+    <inherits name="com.google.gwt.uibinder.UiBinder"/>
+
+    <!-- Specify the path to any remote services.                   -->
+    <servlet path="/startModule/greet" class="ua.borisov.project.server.GreetingServiceImpl"/>
+
+</module>
